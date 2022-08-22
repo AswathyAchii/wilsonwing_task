@@ -28,7 +28,9 @@ TextStyle onBoarding = GoogleFonts.notoSans(
     fontSize: 16, fontWeight: FontWeight.w400, color: const Color(0xff323139));
 
 TextStyle onBoardingDate = GoogleFonts.notoSans(
-    fontSize: 14, fontWeight: FontWeight.w400, color: onBaordingContainerColor);
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: onBaordingSideContainerColor);
 
 TextStyle userOnBoardingText = GoogleFonts.notoSans(
     fontSize: 18, fontWeight: FontWeight.w500, color: const Color(0xff323139));
@@ -42,3 +44,18 @@ TextStyle elementMainText = GoogleFonts.notoSans(
 TextStyle elementSubText = GoogleFonts.notoSans(
     fontSize: 18, fontWeight: FontWeight.w500, color: const Color(0xff323139));
 // onBoarding End
+
+//Product Section
+TextStyle productWiseScetionHeading = GoogleFonts.notoSans(
+    fontSize: 16, fontWeight: FontWeight.w400, color: const Color(0xff323139));
+
+TextStyle lmtdText = GoogleFonts.notoSans(
+    fontSize: 12, fontWeight: FontWeight.w400, color: const Color(0xff323139));
+
+TextStyle productsText = GoogleFonts.notoSans(
+    fontSize: 16, fontWeight: FontWeight.w400, color: const Color(0xff323139));
+TextStyle sideText1 = GoogleFonts.notoSans(
+    fontSize: 12, fontWeight: FontWeight.w400, color: const Color(0xff323139));
+TextStyle middleText1 = GoogleFonts.notoSans(
+    fontSize: 14, fontWeight: FontWeight.w400, color: const Color(0xff323139));
+// Product Section

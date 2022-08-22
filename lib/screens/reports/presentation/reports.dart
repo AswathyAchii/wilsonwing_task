@@ -1,8 +1,11 @@
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:wilson_wings/core/colors.dart';
+import 'package:wilson_wings/core/constants.dart';
 import 'package:wilson_wings/core/strings.dart';
+import 'package:wilson_wings/screens/reports/widgets/lmtd_vs_mtd.dart';
 import 'package:wilson_wings/screens/reports/widgets/on_boarding.dart';
+import 'package:wilson_wings/screens/reports/widgets/product_wise.dart';
 import 'package:wilson_wings/screens/reports/widgets/profile_details.dart';
 import 'package:wilson_wings/screens/reports/widgets/search_container.dart';
 
@@ -26,6 +29,9 @@ class Reports extends StatelessWidget {
                     titleOfReports(),
                     divider(),
                     const OnBoardingSection(),
+                    LineChartWidget(),
+                    kHeight32,
+                    const ProductWise(),
                   ],
                 ),
               ),

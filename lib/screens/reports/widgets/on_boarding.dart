@@ -16,7 +16,7 @@ class OnBoardingSection extends StatelessWidget {
   Container onBoardingContainer() {
     return Container(
       constraints: const BoxConstraints(maxHeight: double.infinity),
-      height: 380,
+      height: 360,
       width: double.infinity,
       child: Neumorphic(
         margin: const EdgeInsets.all(20),
@@ -70,7 +70,7 @@ class OnBoardingSection extends StatelessWidget {
         Stack(
           children: [
             Container(
-              height: 10,
+              height: 6,
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(5)),
                 color: Color(0xffE4D8EF),
@@ -79,7 +79,7 @@ class OnBoardingSection extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(right: length),
               child: Container(
-                height: 10,
+                height: 6,
                 decoration: const BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(5)),
                   color: Color(0xffF16778),
@@ -122,7 +122,7 @@ class OnBoardingSection extends StatelessWidget {
               borderRadius: const BorderRadius.all(
                 Radius.circular(8.0),
               ),
-              border: Border.all(color: onBaordingContainerColor),
+              border: Border.all(color: onBaordingSideContainerColor),
               color: appBackGroundColor,
             ),
             child: Padding(
@@ -144,13 +144,13 @@ class OnBoardingSection extends StatelessWidget {
                         top: 7, bottom: 5, left: 4, right: 4),
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      border: Border.all(color: onBaordingContainerColor),
+                      border: Border.all(color: onBaordingSideContainerColor),
                       color: appBackGroundColor,
                     ),
                     child: Icon(
                       Icons.keyboard_arrow_down_outlined,
                       size: 15,
-                      color: onBaordingContainerColor,
+                      color: onBaordingSideContainerColor,
                     ),
                   )
                 ],
